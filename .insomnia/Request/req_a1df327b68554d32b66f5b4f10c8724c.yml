@@ -1,0 +1,47 @@
+_id: req_a1df327b68554d32b66f5b4f10c8724c
+type: Request
+parentId: fld_4aded63d75304001a0e275644130cd45
+modified: 1694668566524
+created: 1694668566524
+url: "{{base_url}}/platform/documents"
+name: Delete Employee
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"employee": {
+    			"crud": "D",
+    			"data": [
+    				{
+    					"id": 3,
+    					"workplace_id": 6
+    				}
+    			]
+    		}
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e5d1f3752f440919155d38ef5779f78
+  - id: pair_27067d4fcfe948ebba966fee62c44c27
+    name: x-auth-token
+    value: "{{ _.auth_token }}"
+    description: ""
+  - id: pair_03266409cfc84d869e3d5dc7d7415551
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1694530725609.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
