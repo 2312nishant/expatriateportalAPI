@@ -1,0 +1,58 @@
+_id: req_b1f398177594410883fe3247c42ec874
+type: Request
+parentId: fld_728649e12f7240488f7941b81da70c3a
+modified: 1694536536867
+created: 1694536244073
+url: "{{base_url}}/platform/documents"
+name: Update Employee
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"employee": {
+    			"crud": "U",
+    			"data": [
+    				{
+    					"id": 1,
+    					"workplace_id": 6,
+    					"employee_gender": "Male",
+    					"employee_salutation": "Mr",
+            	"employee_first_name": "Vibhav ji",
+    					"employee_last_name": "Yadav",
+            	"employee_email": "vibhavyadav101@gmail.com",
+    					"employee_mobile_number": "9650734774",
+    					"employee_country": "India",
+    					"employee_country_code": "IND",
+    					"employee_designation": "Engineer",
+    					"employee_permanent_address": "Noida Ghar",
+    					"employee_current_primary_address": "Kharadi Ghar"
+    				}
+    			]
+    		}
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e5d1f3752f440919155d38ef5779f78
+  - id: pair_27067d4fcfe948ebba966fee62c44c27
+    name: x-auth-token
+    value: "{{ _.auth_token }}"
+    description: ""
+  - id: pair_03266409cfc84d869e3d5dc7d7415551
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1694531170863.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_4b69d02987874d74af955a3230bd452c
+type: Request
+parentId: fld_43dbde5ea47b49dead5c50d0a79284e1
+modified: 1694530333615
+created: 1694530280355
+url: "{{base_url}}/platform/auth/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email_id": "vibhavyadav101@gmail.com",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1694530280355
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

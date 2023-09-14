@@ -1,0 +1,30 @@
+_id: req_e18271acc2cb45ebbda836e26f2e87df
+type: Request
+parentId: fld_43dbde5ea47b49dead5c50d0a79284e1
+modified: 1694532359924
+created: 1694530343273
+url: "{{base_url}}/platform/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email_id": "vibhavyadav101@gmail.com",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3bd627ebaf2d49c4843a5e86a1915bb9
+authentication: {}
+metaSortKey: -1694259449651.5212
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

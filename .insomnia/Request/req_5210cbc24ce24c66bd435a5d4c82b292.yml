@@ -1,0 +1,26 @@
+_id: req_5210cbc24ce24c66bd435a5d4c82b292
+type: Request
+parentId: fld_43dbde5ea47b49dead5c50d0a79284e1
+modified: 1694530378897
+created: 1694530353361
+url: "{{base_url}}/auth/verify?token=23d38a18e0a9afe763b8ad440a0a89edfb276528cb\
+  c77deea26335be93e45721"
+name: Verify
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1694124034299.7817
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
