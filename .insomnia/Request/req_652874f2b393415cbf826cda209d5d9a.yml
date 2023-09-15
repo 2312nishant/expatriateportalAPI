@@ -1,0 +1,51 @@
+_id: req_652874f2b393415cbf826cda209d5d9a
+type: Request
+parentId: fld_89fe17761d3d4c418ec0ca341b35eed9
+modified: 1694754006795
+created: 1694706062552
+url: "{{base_url}}/platform/documents"
+name: Create new User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"auth": {
+    			"crud": "C",
+    			"data": [
+    				{
+    					"workplace_id": 3,
+    					"workplace_role": "Admin",
+    					"email_id": "vibhavyadav106@gmail.com",
+    					"password": "12345678"
+    				},
+    				{
+    					"workplace_id": 3,
+    					"workplace_role": "Admin",
+    					"email_id": "vibhavyadav107@gmail.com",
+    					"password": "12345678"
+    				}
+    			]
+    		}
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cefbc358a4af498aa2cee89cfae0340b
+  - id: pair_acd89870dc4441938301f6b37fa62f6d
+    name: x-auth-token
+    value: "{{auth_token}}"
+    description: ""
+authentication: {}
+metaSortKey: -1694530280355
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

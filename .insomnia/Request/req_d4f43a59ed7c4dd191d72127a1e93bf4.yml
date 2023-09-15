@@ -1,10 +1,10 @@
 _id: req_d4f43a59ed7c4dd191d72127a1e93bf4
 type: Request
 parentId: fld_4aded63d75304001a0e275644130cd45
-modified: 1694668566516
+modified: 1694692060197
 created: 1694668566516
 url: "{{base_url}}/platform/documents"
-name: Create new Employee
+name: Create new Workplace
 description: ""
 method: POST
 body:
@@ -12,26 +12,12 @@ body:
   text: |-
     [
     	{
-    		"employee": {
+    		"workplace": {
     			"crud": "C",
     			"data": [
     				{
-    					"workplace_id": 6,
-    					"employee_gender": "Male",
-    					"employee_salutation": "Mr",
-            	"employee_first_name": "Vibhav 5",
-            	"employee_middle_name": null,
-            	"employee_last_name": "Yadav",
-            	"employee_email": "vibhavyadav102@gmail.com",
-    					"employee_alt_email": "",
-    					"employee_mobile_number": "9650734774",
-    					"employee_alt_mobile_number": "",
-    					"employee_country": "India",
-    					"employee_country_code": "IND",
-    					"employee_designation": "Engineer",
-    					"employee_permanent_address": "Noida Ghar",
-    					"employee_current_primary_address": "Kharadi Ghar",
-    					"employee_current_alt_address": ""
+    					"org_name": "hisabse",
+    					"org_domain": "hisabse.com"
     				}
     			]
     		}

@@ -1,10 +1,10 @@
 _id: req_a1df327b68554d32b66f5b4f10c8724c
 type: Request
 parentId: fld_4aded63d75304001a0e275644130cd45
-modified: 1694668566524
+modified: 1694704347513
 created: 1694668566524
 url: "{{base_url}}/platform/documents"
-name: Delete Employee
+name: Delete Workplace
 description: ""
 method: POST
 body:
@@ -12,12 +12,11 @@ body:
   text: |-
     [
     	{
-    		"employee": {
+    		"workplace": {
     			"crud": "D",
     			"data": [
     				{
-    					"id": 3,
-    					"workplace_id": 6
+    					"id": 3
     				}
     			]
     		}

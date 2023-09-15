@@ -1,0 +1,25 @@
+_id: req_317da01cad8b47bb81bd9b01bd7a1123
+type: Request
+parentId: fld_9707d568c746401ca52a6a5a758a5e0a
+modified: 1694717729489
+created: 1694717729489
+url: '{{base_url}}/platform/documents/query/workplace/getWorkPlaceUsers?limit=10&page=1&filters={"id":2}'
+name: GetWorkPlaceUsers With Filters
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8f3621161da241aaa495cd6c7a7d247d
+    name: x-auth-token
+    value: "{{auth_token}}"
+    description: ""
+authentication: {}
+metaSortKey: -1694624692651.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

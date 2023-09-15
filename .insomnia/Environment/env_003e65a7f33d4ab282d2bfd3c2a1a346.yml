@@ -1,18 +1,17 @@
 _id: env_003e65a7f33d4ab282d2bfd3c2a1a346
 type: Environment
 parentId: env_a096efff9a43a719fdd6fd4a3eee26d1bb9e364d
-modified: 1694532480394
+modified: 1694798853121
 created: 1694530225809
 name: Local Server
 data:
   base_url: http://localhost:4001/apiv1
-  auth_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiaWF0IjoxNjk0NTMwNDI5fQ.G73Q5thE2cn35u1DUqeSnLE1pRsCWa7kkvhzZdGHTa8
-  workplace_id: 6
+  auth_token: "{% response 'body', 'req_e18271acc2cb45ebbda836e26f2e87df',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'when-expired', 600 %}"
 dataPropertyOrder:
   "&":
     - base_url
     - auth_token
-    - workplace_id
 color: null
 isPrivate: false
 metaSortKey: 1694530225809
