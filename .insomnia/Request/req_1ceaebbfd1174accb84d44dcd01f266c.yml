@@ -1,10 +1,10 @@
 _id: req_1ceaebbfd1174accb84d44dcd01f266c
 type: Request
 parentId: fld_9707d568c746401ca52a6a5a758a5e0a
-modified: 1694717803654
+modified: 1695219724237
 created: 1694717323931
-url: "{{base_url}}/platform/documents/query/workplace/getWorkPlaceUsers?limit=1\
-  0&page=1"
+url: "{{base_url}}/platform/documents/query/workplace/getWorkPlaceUsers?id=3&li\
+  mit=10&page=1"
 name: GetWorkPlaceUsers
 description: ""
 method: GET
