@@ -1,10 +1,11 @@
-_id: req_8d77248a153a4598bdf005a75be84213
+_id: req_62b022ae462a49f288bb6a54ecec68ba
 type: Request
-parentId: fld_a840682f267d4cfa94c888571fda2ad9
-modified: 1696134036671
-created: 1696133970363
-url: "{{base_url}}/platform/documents/query/auth/getWorkplaceUsers?limit=10&page=1"
-name: GetWorkplaces
+parentId: fld_9707d568c746401ca52a6a5a758a5e0a
+modified: 1696161343745
+created: 1696161341448
+url: "{{base_url}}/platform/documents/query/workplace/getWorkPlaceEmployees?wor\
+  kplace_id=1&limit=10&page=1"
+name: GetWorkPlaceEmployees
 description: ""
 method: GET
 body: {}
@@ -15,7 +16,7 @@ headers:
     value: "{{auth_token}}"
     description: ""
 authentication: {}
-metaSortKey: -1694694166111.125
+metaSortKey: -1694642061016.4062
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
