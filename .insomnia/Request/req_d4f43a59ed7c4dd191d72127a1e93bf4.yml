@@ -1,7 +1,7 @@
 _id: req_d4f43a59ed7c4dd191d72127a1e93bf4
 type: Request
 parentId: fld_4aded63d75304001a0e275644130cd45
-modified: 1694692060197
+modified: 1696058874561
 created: 1694668566516
 url: "{{base_url}}/platform/documents"
 name: Create new Workplace
@@ -16,7 +16,7 @@ body:
     			"crud": "C",
     			"data": [
     				{
-    					"org_name": "hisabse",
+    					"org_name": "Hisabse",
     					"org_domain": "hisabse.com"
     				}
     			]

@@ -1,7 +1,7 @@
 _id: req_652874f2b393415cbf826cda209d5d9a
 type: Request
 parentId: fld_89fe17761d3d4c418ec0ca341b35eed9
-modified: 1694754006795
+modified: 1696133985334
 created: 1694706062552
 url: "{{base_url}}/platform/documents"
 name: Create new User
@@ -16,13 +16,13 @@ body:
     			"crud": "C",
     			"data": [
     				{
-    					"workplace_id": 3,
+    					"workplace_id": 2,
     					"workplace_role": "Admin",
     					"email_id": "vibhavyadav106@gmail.com",
     					"password": "12345678"
     				},
     				{
-    					"workplace_id": 3,
+    					"workplace_id": 2,
     					"workplace_role": "Admin",
     					"email_id": "vibhavyadav107@gmail.com",
     					"password": "12345678"
@@ -41,7 +41,7 @@ headers:
     value: "{{auth_token}}"
     description: ""
 authentication: {}
-metaSortKey: -1694530280355
+metaSortKey: -1694530280280
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,25 @@
+_id: req_8d77248a153a4598bdf005a75be84213
+type: Request
+parentId: fld_a840682f267d4cfa94c888571fda2ad9
+modified: 1696134036671
+created: 1696133970363
+url: "{{base_url}}/platform/documents/query/auth/getWorkplaceUsers?limit=10&page=1"
+name: GetWorkplaces
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8f3621161da241aaa495cd6c7a7d247d
+    name: x-auth-token
+    value: "{{auth_token}}"
+    description: ""
+authentication: {}
+metaSortKey: -1694694166111.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
